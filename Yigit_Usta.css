@@ -1,0 +1,149 @@
+body, html, div, table, td{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Thambi', cursive;
+    color: black;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /*to not to select texts*/
+    cursor: default;
+}
+
+#main, #overlay{
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+}
+
+#overlay{
+    position: fixed;
+    background-color: rgba(0,0,0, 0.8);
+    z-index: 1;
+}
+
+#startscreen{
+    position: relative;
+    margin: 200px auto;
+    width: 400px;
+    height: 150px;
+    border-radius: 30px;
+    background-color: rgb(100,100,100);
+    border: 3px solid black;
+    text-align: center;
+    font-size: 32px;
+    line-height: 100%;
+    padding: 40px 20px;
+}
+
+#startscreen span{
+    color: blue;
+    padding-left: 10px;
+}
+
+#start {
+    margin: 50px auto;
+    width: 200px;
+    height: 50px;
+    background-color: #D4D600;
+    border-radius: 20px;
+    border: 3px solid black;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#start:hover{
+    background-color: #898B00;
+}
+
+#main{
+    position: absolute;
+    background-color: #DDD;
+}
+
+#game{
+    margin: 0 auto;
+    table-layout: fixed;
+}
+
+#game td{
+    padding: 5px 30px;
+    text-align: center;
+    font-size: 18px;
+}
+#board{
+    margin: 0 auto;
+    border-spacing: 0px;
+    border-style: inset;
+    table-layout: fixed;
+}
+
+#board td{
+    padding: 0;
+    width: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+    border-style: outset;
+}
+
+#board td div{
+    line-height: 30px;
+}
+
+.mark div{
+    top: 10px;
+    left: 10px;
+    width: 80%;
+    height: 80%;
+}
+
+.flagged div{
+    top: 12px;
+    left: 12px;
+    width: 80%;
+    height: 80%;
+}
+
+.opened{
+    border: solid 1px gray;
+}
+
+.c1{
+    color: blue;
+}
+
+.c2{
+    color: green;
+}
+
+.c3{
+    color: orangered;
+}
+
+.c4{
+    color: darkred;
+}
+
+.c5 {
+    color: slategrey;
+}
+
+.c6{
+    color: black;
+}
+
+.c7{
+    color: aqua;
+}
+
+.c8{
+    color: blueviolet;
+}
