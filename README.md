@@ -1,5 +1,5 @@
 # CTIS255_PROJECT
-* A minesweeper game running on browser using html elements.
+### A minesweeper game running on browser using html elements.
 * Right click to plant flags
 * Click that face to restart
 * Click eye of mordor to cheat
